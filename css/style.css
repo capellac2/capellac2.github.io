@@ -6,21 +6,31 @@ html {
 .header {
   display: flex;
   flex-direction: row;
+  /* justify-content: space-between; */
 }
 
 .header-my-info {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
   /*background-color: orange;*/
 }
 
 .header-my-improvements {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
   /* background-color: blue; */
 }
 
 .header-img {
   display: block;
-  padding: 20px;
+  margin: 10px;
+}
+
+.main-flexbox-container {
+  display: flex;
+}
+
+.main-flexbox-item {
+  flex-direction: column;
+  /* background-color: pink; */
 }

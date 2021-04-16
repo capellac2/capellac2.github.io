@@ -4,7 +4,6 @@
 
 .m-flexbox-item {
   flex-direction: row;
-  display: flex;
 }
 
 .m-flexbox-item .flexbox-item-1 {
