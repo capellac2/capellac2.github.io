@@ -5,21 +5,24 @@ html {
 
 .header {
   display: flex;
-  flex-direction: row;
-  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* background-color: brown; */
 }
 
 .header-my-info {
   margin-left: 80px;
   margin-right: 80px;
-  /*background-color: orange;*/
+  /* background-color: orange; */
 }
 
-.header-my-improvements {
+/* .header-my-improvements {
   margin-left: 80px;
   margin-right: 80px;
-  /* background-color: blue; */
-}
+  background-color: blue;
+} */
 
 .header-img {
   display: block;
@@ -28,6 +31,8 @@ html {
 
 .main-flexbox-container {
   display: flex;
+  /* background-color: pink; */
+  justify-content: center;
 }
 
 .main-flexbox-item {
