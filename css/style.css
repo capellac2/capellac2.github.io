@@ -12,6 +12,12 @@ html {
   /* background-color: brown; */
 }
 
+.header-img {
+  display: block;
+  margin: 10px;
+  /* background-color: crimson; */
+}
+
 .header-my-info {
   margin-left: 80px;
   margin-right: 80px;
@@ -23,11 +29,6 @@ html {
   margin-right: 80px;
   background-color: blue;
 } */
-
-.header-img {
-  display: block;
-  margin: 10px;
-}
 
 .main-flexbox-container {
   display: flex;
