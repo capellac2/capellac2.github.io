@@ -40,3 +40,10 @@ html {
   flex-direction: column;
   /* background-color: pink; */
 }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #fafafa;
+}
